@@ -192,7 +192,7 @@ $ cp /data/genomics/data/primates.dna.phy data/raw
 
 Now that the input file is in place, we'll need to generate a job submission file.
 
-We will be using the Hydra QSub Generation Utility to create this file. Go to [https://hydra-adm01.si.edu/tools/QSubGen/](https://hydra-adm01.si.edu/tools/QSubGen/) and fill in the following values:
+We will be using the Hydra QSub Generation Utility to create this file. Go to telework.si.edu and find Hydra under IT tools, follow the link to the QSub Generator and fill in the following values:
 
 * *CPU time*: short
 * *Memory*: 1 GB
