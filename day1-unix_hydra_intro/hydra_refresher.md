@@ -1,4 +1,4 @@
-# Running jobs on HPC scheduler
+# Running jobs on HPC
 
 Objectives:
 * Learn some basic Unix commands for navigating the filesytem in Hydra.
@@ -261,27 +261,6 @@ $ qacct -j {job ID}
 ```
 
 *Pay specific attention to the maxvmem line of the qacct output. This shows the maximum amount of virtual memory that your job used. If this is significantly less than the amount you requested, make sure to adjust in future jobs.*
-
-## Transferring files
-
-If you haven't already, go ahead and install a file transfer client. We recommend FileZilla, which you can download from [https://filezilla-project.org/download.php?show_all=1](https://filezilla-project.org/download.php?show_all=1). DO NOT USE THE SKETCHY INSTALLER AT [https://filezilla-project.org/download.php?type=client](https://filezilla-project.org/download.php?type=client), which comes with "bundled offers".
-
-In the Quickconnect toolbar at the top of the window enter:
-
-* Host: hydra-login01.si.edu or hydra-login02.si.edu
-* Username: your Hydra username
-* Password: your Hydra password
-* Port: 22 
-
-Press the "Quickconnect" button to start the connection.
-
-The files listed on the left side of the window are on your local computer, those on the right are on Hydra.
-
-Enter your `/scratch/genomics/{user}` filepath in the "Remote site" entry on the right side. You can than use the file tree on the right to navigate to your result files.
-
-Drag the ".treefile" file to the left side in an appropriate directory on your local computer.
-
-Now, go to [https://icytree.org/](https://icytree.org/) in a web browser, and open up the ".treefile" file to view the tree.
 
 ## Interactive queue
 
