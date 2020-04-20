@@ -51,7 +51,7 @@ The improvement in DNA sequencing technologies over the last three decade have l
  * Samples can get contaminates from different sources (Human, Bactera or other Endo or ecto symbionts).
  
 4. Errors related with the sequencing technology.
- * Phred Scores (Logarithmically linked to probablility of erro)
+ * Phred Scores (Logarithmically linked to probablility of error)
    - Q10: p = 1 in 10 of wrong base call
    - Q20: p = 1 in 100 of wrong base call
    - Q30: p = 1 in 1000 of wrong base call
