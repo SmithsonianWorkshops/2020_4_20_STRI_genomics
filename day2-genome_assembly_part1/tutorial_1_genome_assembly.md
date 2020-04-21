@@ -53,7 +53,9 @@
 	+ **Module:** ```module load bioinformatics/masurca```  
 	+ **Commands:** 
 	```export PATH=/home/dikowr/perl5/perlbrew/perls/perl-5.26.3/bin:$PATH```
+	
         ```export PERL5LIB=/home/dikowr/perl5/perlbrew/perls/perl-5.26.3/lib```
+	
 	```masurca <CONFIG_FILE>```    
 * This job should complete in a few seconds and result in a file called assemble.sh  
 * Create a second job file for the second part of MaSuRCA.  
