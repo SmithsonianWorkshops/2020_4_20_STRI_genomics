@@ -2,7 +2,7 @@
 * FastQC is a program that can quickly scan your raw data to help figure out if there are adapters or low quality reads present. Create a job file to run FastQC on one of the fastq files here: ```/scratch/genomics/dikowr/siskin_raw_data/illumina_raw```
 	+ **module**: ```bioinformatics/fastqc```
 	+ **command**: ```fastqc <FILE.fastq>```
-	+ after your job finishes, find the results and download some of the images, e.g. ```per_base_quality.png``` to your local machine using ffsend (load ```bioinformatics/ffsend``` module) and then the command ``ffsend upload <FILE>```.
+	+ after your job finishes, find the results and download some of the images, e.g. ```per_base_quality.png``` to your local machine using ffsend (load ```bioinformatics/ffsend``` module) and then the command ```ffsend upload <FILE>```.
 
 
 ### 2. Trimming adapters with TrimGalore! 
