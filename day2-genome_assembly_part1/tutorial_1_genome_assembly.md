@@ -64,7 +64,9 @@
 	+ **Module:** ```module load bioinformatics/masurca```  
 	+ **Command:** 
 	```export PATH=/home/dikowr/perl5/perlbrew/perls/perl-5.26.3/bin:$PATH```
+	
         ```export PERL5LIB=/home/dikowr/perl5/perlbrew/perls/perl-5.26.3/lib```
+	
 	```./assemble.sh```  
 * Submit this second job. This will run for a couple of days.
 
