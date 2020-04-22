@@ -2,7 +2,7 @@
 
 ### What is Wtdbg?
 
-Wtdbg2 is a sequence assembler for long noisy reads produced by either PacBio or Oxford Nanopore Technologies. This program cuts reads into 1024bp segments, merges similar segments into a vertex and connects vertices based on the segment adjacency on reads. These sequence of steps procudes a graph that the authors called fuzzy Bruijn graph (FBG), which is similar to the Bruijn graph but allows mismatches and keeps read paths when collapsing k-mers . The program uses to steps. The first step is the assembler and the second step is the consenser.[(see Wtdbg2)](https://github.com/ruanjue/wtdbg2).
+Wtdbg2 is a sequence assembler for long noisy reads produced by either PacBio or Oxford Nanopore Technologies. This program cuts reads into 1024bp segments, merges similar segments into a vertex and connects vertices based on the segment adjacency on reads. These sequence of steps procudes a graph that the authors called fuzzy Bruijn graph (FBG), which is similar to the Bruijn graph but allows mismatches and keeps read paths when collapsing k-mers . The program uses two steps. The first step is the assembler and the second step is the consenser.[(see Wtdbg2)](https://github.com/ruanjue/wtdbg2).
 
 * You can run Wtdb2 in two ways: 
 1 by running a perl script that calls the two main commands (see Wtdbg2 github) or 
