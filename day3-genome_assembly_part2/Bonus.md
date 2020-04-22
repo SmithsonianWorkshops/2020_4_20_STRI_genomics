@@ -11,8 +11,8 @@ Wtdbg2 is a sequence assembler for long noisy reads produced by either PacBio or
 * here you will do it step by step.
 
 * First step, create a job file for the first command:
-	+ Module: ```bioinformatics/Wtdbg2/```
-	+ Commands: ```/home/ariasc/programs/wtdbg2/./wtdbg2 -g 4.6m -t 40 -x rs -i /path/to/reads_file.fa_or_fq -fo prefix_for_your_output_file```
+	+ Module: ```bioinformatics/wtdbg2```
+	+ Commands: ```wtdbg2 -g 4.6m -t 40 -x rs -i /path/to/reads_file.fa_or_fq -fo prefix_for_your_output_file```
 	+ ```-g``` = estimated genome size in megabases (m) of gigabases (g)(i.e, 4.6m)  
 	+ ```-i``` = input file fasta or fastq  
 	+ ```-x``` = preset parameters depending on the sequencing technology, check ```./wtdbg2 -help ``` for other parameters. In this case this  ```-x rs``` is for Pacbio rs sequencing plataform.
@@ -20,8 +20,8 @@ Wtdbg2 is a sequence assembler for long noisy reads produced by either PacBio or
 	
 	
 * Second step, create a job file for the second command:
-	+ Module: ```bioinformatics/Wtdbg2/```
-	+ Commands: ```/home/ariasc/programs/wtdbg2/./wtpoa-cns -t 40 -i prefix.ctg.lay.gz -fo genome_draft_raw.fa```
+	+ Module: ```bioinformatics/wtdbg2```
+	+ Commands: ```wtpoa-cns -t 40 -i prefix.ctg.lay.gz -fo genome_draft_raw.fa```
 	+ ```-t``` = # of threads
 	+ ```-i``` = prefix.ctg.lay.gz (this is the one of the results file from previous command)
 	+ ```-x``` = name for your draft genome in fasta format
