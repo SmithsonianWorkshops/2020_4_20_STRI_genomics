@@ -11,4 +11,4 @@ For eukaryotic genomes, coverage more than 20x is enough to outperform current h
 	+ Module: ```bioinformatics/canu```
 	+ Commands: ```canu useGrid=false -d <directory-for-output> -p <assembly-prefix> genomeSize=2.5g -pacbio-raw <reads-file>.fastq maxThreads=$NSLOTS```
 	+ Try this on some mammal data here: ```/data/genomics/workshops/STRI_genomics/mammal_pacbio.fasta``` 
-    + Hint: this job needs to run on the high memory queue. 
+        + Hint: this job needs to run on the high memory queue (similar to the resources you used for MaSuRCA). 
