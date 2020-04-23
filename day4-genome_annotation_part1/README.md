@@ -1,1 +1,3 @@
-# 2020_4_20_STRI_genomics
+# Genome annotation - Day 01
+
+Presentation and tutorial for the genome annotation portion of the online workshop.
