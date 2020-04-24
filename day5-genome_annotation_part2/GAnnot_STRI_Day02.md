@@ -10,7 +10,7 @@
      * [Split fasta into sub-files with 100 sequences](#Split-fasta-into-sub-files-with-100-sequences)
      * [Create blast job array](#Create-blast-job-array)
      * [Merge the xml files](#Merge-the-xml-files)
- * [Running Blast2GO](##10-Running-Blast2GO)
+ * [Running Blast2GO](#Running-Blast2GO)
 
 <!-- /TOC -->
 
