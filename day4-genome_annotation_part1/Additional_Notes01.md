@@ -59,8 +59,10 @@ By doing this, we are removing anything classified as bacteria, plasmids or viru
     
 ##### Using `samtools`, we will extract from the assembly only the contigs identified as Human or unclassified. Bacteria, viruses and plasmids will be excluded.
 
-`module load bioinformatics/samtools`
-`xargs samtools original_assembly.fa < assembly.fa.HsU.list > new_assembly.fa`
+```
+module load bioinformatics/samtools
+xargs samtools original_assembly.fa < assembly.fa.HsU.list > new_assembly.fa
+```
 
 ##### We applied this to a prairie dog genome (check the publication [here](https://academic.oup.com/gbe/advance-article/doi/10.1093/gbe/evaa069/5819143?searchresult=1)) 
 The genome size decreased around 1.84%, but all the other stats (with exception of the longest and shortest scaffold/contig) were improved. This assembly was submitted to Genbank and accepted with no errors.
